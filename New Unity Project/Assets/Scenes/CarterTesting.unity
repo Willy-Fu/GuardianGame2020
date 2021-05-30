@@ -202,6 +202,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &165361944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5329060624396699920, guid: ecbd89af5174044cbbd136a0b56b1e9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 5756365045128412538}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &175103478
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,8 +538,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48e50045ed3f148e9acb66a8003524e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Instantiate_Position: {fileID: 1264532223}
-  TestBox: {fileID: 1286411173773918355, guid: 18cce3350e677405492277aa15403c0a, type: 3}
+  Instantiate_Position: {fileID: 165361944}
+  TestBox: {fileID: 3683100219776024937, guid: 769ab337f601ab94288b2a7a4724ed34, type: 3}
 --- !u!114 &882725950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1600,6 +1606,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3683100218599760141, guid: 769ab337f601ab94288b2a7a4724ed34,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3683100218599760141, guid: 769ab337f601ab94288b2a7a4724ed34,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3683100218599760141, guid: 769ab337f601ab94288b2a7a4724ed34,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3683100218599760142, guid: 769ab337f601ab94288b2a7a4724ed34,
         type: 3}
       propertyPath: m_TagString
